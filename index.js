@@ -45,3 +45,17 @@ ReactDOM.render(
     </div>, document.getElementById("body")
 )
 
+function PracticeWork(){
+    return(
+        <div>
+            <h1>Reasons y am exactied to leran react </h1>
+            <ul>
+                <li>I want to earn reasonable money</li>
+                <li>to highly hirable</li>
+                <h1>everyone is talking about it </h1>
+                <h1>I have three individuals who have told me to learn react and i respect them to much </h1>
+            </ul>
+        </div>
+    )
+}
+ReactDOM.render(<PracticeWork/>, document.getElementById("reasons"))
